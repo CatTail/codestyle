@@ -25,3 +25,19 @@ Reason
 
 * debugging
 * modification
+
+## Naming
+
+jQuery node
+
+Not
+
+```js
+var div = $('.somediv');
+```
+
+Use
+
+```js
+var $div = $('.somediv');
+```
